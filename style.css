@@ -1,0 +1,18 @@
+.game_board{ 
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px; 
+    grid-template-rows: 120px 120px 120px 120px 120px;
+    grid-gap: 20px;
+    padding: 10px;
+    justify-content: center;
+    background-color:gray;
+
+}
+
+.number{
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
